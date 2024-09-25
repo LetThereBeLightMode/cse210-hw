@@ -12,16 +12,20 @@ class Program
         int guess = int.Parse(Console.ReadLine());
         while (guess != number)
         {
-            Console.WriteLine("You guessed incorrectly. guess again!");
-            guess = int.Parse(Console.ReadLine());
-        if (guess > number)    
-            {
-                Console.WriteLine("Guess lower!");
-            }
-            else
+                Console.WriteLine("You guessed incorrectly. guess again!");
+                guess = int.Parse(Console.ReadLine());
+            if (guess > number)    
+                {
+                    Console.WriteLine("Guess lower!");
+                }
+            else if (guess < number)
             {
                 Console.WriteLine("Guess higher!");
             }
+            else
+            {
+                Console.WriteLine("You guessed correctly!");
             }
+        }
 }
 }
