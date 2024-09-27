@@ -11,14 +11,21 @@ class Program
         job1._jobTitle="Super Senior Manager";
         job1._Company="Beeg Business";
         job1._startYear = 2024; 
+        job1._endYear = 2028;
+
         
         Job job2 = new Job;
-
+        
+        job2._jobTitle="Super Senior Manager";
+        job2._Company="Beeg Business";
+        job2._startYear = 2024; 
+        job2._endYear = 2028;
+        
 
     }
 }
 
 class Job
 {
-    
+
 }
