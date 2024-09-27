@@ -14,8 +14,11 @@ class Program
         
         Job job2 = new Job;
 
-        
-        "
 
     }
+}
+
+class Job
+{
+    
 }
